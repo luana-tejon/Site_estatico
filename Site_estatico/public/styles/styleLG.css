@@ -1,0 +1,139 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* HEADER COMEÇO */
+
+.header {
+    background-color: #000000;
+    border-bottom: 3px solid #32b9cd;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #e3b062;
+    width: 400px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.navbar a {
+    color: #e3b062;
+    text-decoration: none;
+}
+
+.titulo {
+    color: #32b9cd;
+}
+
+.agora a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* HEADER FIM */
+
+/* MAIN INICIO */
+
+.login {
+    background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 47.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .container {
+    background-color: #E5E5E5;
+    width: 40%;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem ;
+}
+
+.login .container .card {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login .container .card h2 {
+    margin-top: 0;
+    color: #D36F95;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.login .container .card .formulario {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login .container .card .campo {
+    width: 100%;
+}
+
+.login .container .card span {
+    color: #D36F95;
+    font-weight: bold;
+}
+
+.login .container .card input {
+    width: 100%;
+    padding: .5rem;
+    border-radius: .5rem;
+    border: solid 2px #90D0DE;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.login .container .card button {
+    background-color: #EF135B;
+    border: transparent;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* MAIN FIM */
+
+/* FOOTER INICIO */
+
+.footer {
+    background-color: #32b9cd;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    flex-direction: column;
+    padding: 10px 0;
+
+}
+
+/* FOOTER FIM */
